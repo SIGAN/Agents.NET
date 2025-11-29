@@ -18,3 +18,4 @@ Hierarchical specification system for Agents.NET.
   - `coordination/` - Inter-agent communication
   - `memory-management/` - Hierarchical memory and context
   - `tool-governance/` - Tool/MCP execution governance
+  - `python-execution/` - Python snippet execution (CodeAct pattern)

@@ -24,8 +24,9 @@ General-purpose AI agent system based on codeact pattern.
 - Use extensively throughout system
 - Dynamic prompt construction for agents, skills, tasks
 
-**Internal Tooling**:
-- Python snippet execution (only internal tool needed)
+**CodeAct Pattern Implementation**:
+- Python snippet execution (only internal tool required)
+- See `specs/system/python-execution/SPEC.md`
 
 ## Core Concepts
 
