@@ -29,16 +29,20 @@ General-purpose AI agent system based on codeact pattern.
 
 ## Core Concepts
 
-### Agent
-- System prompt
-- Description (when to use/apply)
-- One or more Skills
+### MicroAgent
+- Specialized AI with configurable context (fresh/summarized/fork - assigned per task)
+- System prompt defining behavior
+- Description (when to use/invoke)
+- MUST use one or more Skills (agent = collection of skills)
+- Spawns concurrently, shares hierarchical memory with all agents
 
 ### Skill
-- Rules
-- Tools
-- MCPs
-- Snippets (reusable code)
+- Executable configuration (NOT just knowledge provider)
+- Model (which LLM to use)
+- Tools (allowed operations)
+- Rules (behavior constraints)
+- MCPs (Model Context Protocol integrations)
+- Snippets (reusable code/scripts)
 
 ## Task Management (Hierarchical)
 
@@ -89,6 +93,21 @@ General-purpose AI agent system based on codeact pattern.
 ### Step Behavior
 - Automatic completion once agent is done
 - Continued run (agent stops itself, even if nothing left to do - e.g., waiting on incoming message)
+
+## Specs Management (Hierarchical)
+
+### CRUD
+- Definition CRUD
+- Execution CRUD
+
+### Types
+- Technical specifications
+- Business specifications
+
+### Hierarchy
+- Parent-child relationships
+- Nested specifications
+- Cross-references between specs
 
 ## Agent Management
 
@@ -170,6 +189,17 @@ Projects organized by concern:
 - `Agents.Plugins` - Plugin infrastructure
 - `Agents.MicroAgents` - Agent definitions
 - `Agents.Security` - Security infrastructure
+
+**Reference Sources:**
+- `refsrc/` - Cloned projects/files for reference (contents excluded from git)
+
+## Specifications
+
+All system specifications are maintained in the `specs/` folder with hierarchical structure.
+
+**Inheritance**: Child specs inherit all parent spec properties and constraints.
+
+See `specs/README.md` for complete specification hierarchy.
 
 ## Development Principles
 

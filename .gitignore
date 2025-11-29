@@ -52,3 +52,8 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Reference source folder - exclude contents, track folder
+refsrc/*
+!refsrc/.gitkeep
+!refsrc/README.md

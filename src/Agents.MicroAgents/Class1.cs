@@ -1,4 +1,4 @@
-﻿namespace Agents.Agents;
+﻿namespace Agents.MicroAgents;
 
 public class Class1
 {
