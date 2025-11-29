@@ -88,9 +88,15 @@ dotnet build
 
 ### Test
 
+All projects use xUnit for testing. Each project has a corresponding `*.Tests` counterpart.
+
 ```bash
 dotnet test
 ```
+
+### Continuous Integration
+
+GitHub Actions automatically builds and tests on every push to `main` and on pull requests.
 
 ## Project Structure
 
@@ -100,19 +106,31 @@ agents.net/
 ├── README.md                # This file
 ├── CLAUDE.md                # AI agent guidance
 ├── LICENSE
-└── src/
-    ├── Agents.Core.Contracts/
-    ├── Agents.Core.Memory/
-    │   ├── Tasks/
-    │   ├── Notes/
-    │   ├── Decisions/
-    │   └── Graph/
-    ├── Agents.Core.Coordination/
-    ├── Agents.Core.LlmGateway/
-    ├── Agents.Tools/
-    ├── Agents.Plugins/
-    ├── Agents.MicroAgents/
-    └── Agents.Security/
+├── refsrc/                  # Reference sources (excluded from git)
+├── specs/                   # Hierarchical specifications
+│   └── system/              # Core system specs
+├── src/                     # Source projects
+│   ├── Agents.Core.Contracts/
+│   ├── Agents.Core.Memory/
+│   │   ├── Tasks/
+│   │   ├── Notes/
+│   │   ├── Decisions/
+│   │   └── Graph/
+│   ├── Agents.Core.Coordination/
+│   ├── Agents.Core.LlmGateway/
+│   ├── Agents.Tools/
+│   ├── Agents.Plugins/
+│   ├── Agents.MicroAgents/
+│   └── Agents.Security/
+└── tests/                   # Test projects (xUnit)
+    ├── Agents.Core.Contracts.Tests/
+    ├── Agents.Core.Memory.Tests/
+    ├── Agents.Core.Coordination.Tests/
+    ├── Agents.Core.LlmGateway.Tests/
+    ├── Agents.Tools.Tests/
+    ├── Agents.Plugins.Tests/
+    ├── Agents.MicroAgents.Tests/
+    └── Agents.Security.Tests/
 ```
 
 ## Deployment

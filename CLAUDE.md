@@ -181,7 +181,7 @@ General-purpose AI agent system based on codeact pattern.
 
 ### Aspect-Based Programming
 
-Projects organized by concern:
+**Source Projects** (`src/`):
 - `Agents.Core.Contracts` - Shared contracts
 - `Agents.Core.Memory` - Memory infrastructure (Tasks/, Notes/, Decisions/, Graph/)
 - `Agents.Core.Coordination` - Channel/message coordination
@@ -191,8 +191,12 @@ Projects organized by concern:
 - `Agents.MicroAgents` - Agent definitions
 - `Agents.Security` - Security infrastructure
 
-**Reference Sources:**
+**Test Projects** (`tests/`):
+- Each source project has a corresponding `*.Tests` project using xUnit
+
+**Other Folders:**
 - `refsrc/` - Cloned projects/files for reference (contents excluded from git)
+- `specs/` - Hierarchical specifications with inheritance
 
 ## Specifications
 
@@ -210,9 +214,23 @@ See `specs/README.md` for complete specification hierarchy.
 - Small steps
 - HITL (Human In The Loop) with explicit approval required
 
+## Testing
+
+**Framework**: xUnit for .NET 10
+
+**Structure**: Every project has a corresponding `*.Tests` project in the `tests/` folder.
+
 ## Build Commands
 
 ```bash
 dotnet build
 dotnet test
 ```
+
+## Continuous Integration
+
+GitHub Actions workflow runs on every push to `main` and on pull requests:
+- Build solution (Release configuration)
+- Run all tests
+
+See `.github/workflows/ci.yml` for configuration.
