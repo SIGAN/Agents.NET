@@ -3,10 +3,6 @@
     <Project Path="src/Agents.Core.Contracts/Agents.Core.Contracts.csproj" />
     <Project Path="src/Agents.Core.Coordination/Agents.Core.Coordination.csproj" />
     <Project Path="src/Agents.Core.LlmGateway/Agents.Core.LlmGateway.csproj" />
-    <Project Path="src/Agents.Core.Memory.Decisions/Agents.Core.Memory.Decisions.csproj" />
-    <Project Path="src/Agents.Core.Memory.Graph/Agents.Core.Memory.Graph.csproj" />
-    <Project Path="src/Agents.Core.Memory.Notes/Agents.Core.Memory.Notes.csproj" />
-    <Project Path="src/Agents.Core.Memory.Tasks/Agents.Core.Memory.Tasks.csproj" />
     <Project Path="src/Agents.Core.Memory/Agents.Core.Memory.csproj" />
     <Project Path="src/Agents.MicroAgents/Agents.MicroAgents.csproj" />
     <Project Path="src/Agents.Plugins/Agents.Plugins.csproj" />

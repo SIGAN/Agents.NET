@@ -163,11 +163,7 @@ General-purpose AI agent system based on codeact pattern.
 
 Projects organized by concern:
 - `Agents.Core.Contracts` - Shared contracts
-- `Agents.Core.Memory` - Base memory infrastructure
-- `Agents.Core.Memory.Tasks` - Task memory
-- `Agents.Core.Memory.Notes` - Note memory
-- `Agents.Core.Memory.Decisions` - Decision memory
-- `Agents.Core.Memory.Graph` - Graph relationships
+- `Agents.Core.Memory` - Memory infrastructure (Tasks/, Notes/, Decisions/, Graph/)
 - `Agents.Core.Coordination` - Channel/message coordination
 - `Agents.Core.LlmGateway` - Abstracts prompt caching, conversation mgmt, API keys, compatibility
 - `Agents.Tools` - Standard tools
