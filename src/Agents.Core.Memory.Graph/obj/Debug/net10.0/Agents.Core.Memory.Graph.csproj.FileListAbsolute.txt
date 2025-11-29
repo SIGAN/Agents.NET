@@ -1,0 +1,11 @@
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/bin/Debug/net10.0/Agents.Core.Memory.Graph.deps.json
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/bin/Debug/net10.0/Agents.Core.Memory.Graph.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/bin/Debug/net10.0/Agents.Core.Memory.Graph.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.AssemblyInfoInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.AssemblyInfo.cs
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.csproj.CoreCompileInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/refint/Agents.Core.Memory.Graph.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/Agents.Core.Memory.Graph.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Graph/obj/Debug/net10.0/ref/Agents.Core.Memory.Graph.dll

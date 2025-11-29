@@ -1,0 +1,11 @@
+/Users/igor/Sources/agents.net/src/Agents.Tools/bin/Debug/net10.0/Agents.Tools.deps.json
+/Users/igor/Sources/agents.net/src/Agents.Tools/bin/Debug/net10.0/Agents.Tools.dll
+/Users/igor/Sources/agents.net/src/Agents.Tools/bin/Debug/net10.0/Agents.Tools.pdb
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.AssemblyInfoInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.AssemblyInfo.cs
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.csproj.CoreCompileInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.dll
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/refint/Agents.Tools.dll
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/Agents.Tools.pdb
+/Users/igor/Sources/agents.net/src/Agents.Tools/obj/Debug/net10.0/ref/Agents.Tools.dll

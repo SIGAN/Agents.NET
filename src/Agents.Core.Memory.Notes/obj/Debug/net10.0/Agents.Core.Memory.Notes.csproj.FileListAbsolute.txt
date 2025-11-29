@@ -1,0 +1,11 @@
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/bin/Debug/net10.0/Agents.Core.Memory.Notes.deps.json
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/bin/Debug/net10.0/Agents.Core.Memory.Notes.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/bin/Debug/net10.0/Agents.Core.Memory.Notes.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.AssemblyInfoInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.AssemblyInfo.cs
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.csproj.CoreCompileInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/refint/Agents.Core.Memory.Notes.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/Agents.Core.Memory.Notes.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Notes/obj/Debug/net10.0/ref/Agents.Core.Memory.Notes.dll

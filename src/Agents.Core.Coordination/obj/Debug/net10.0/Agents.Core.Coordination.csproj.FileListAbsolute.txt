@@ -1,0 +1,11 @@
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/bin/Debug/net10.0/Agents.Core.Coordination.deps.json
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/bin/Debug/net10.0/Agents.Core.Coordination.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/bin/Debug/net10.0/Agents.Core.Coordination.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.AssemblyInfoInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.AssemblyInfo.cs
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.csproj.CoreCompileInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/refint/Agents.Core.Coordination.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/Agents.Core.Coordination.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Coordination/obj/Debug/net10.0/ref/Agents.Core.Coordination.dll

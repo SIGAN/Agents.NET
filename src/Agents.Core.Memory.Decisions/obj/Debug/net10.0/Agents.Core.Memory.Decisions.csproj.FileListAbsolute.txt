@@ -1,0 +1,11 @@
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/bin/Debug/net10.0/Agents.Core.Memory.Decisions.deps.json
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/bin/Debug/net10.0/Agents.Core.Memory.Decisions.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/bin/Debug/net10.0/Agents.Core.Memory.Decisions.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.AssemblyInfoInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.AssemblyInfo.cs
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.csproj.CoreCompileInputs.cache
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/refint/Agents.Core.Memory.Decisions.dll
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/Agents.Core.Memory.Decisions.pdb
+/Users/igor/Sources/agents.net/src/Agents.Core.Memory.Decisions/obj/Debug/net10.0/ref/Agents.Core.Memory.Decisions.dll
