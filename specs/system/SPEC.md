@@ -42,6 +42,19 @@ General-purpose AI agent system based on codeact pattern.
 - MCPs (Model Context Protocol integrations)
 - Snippets (reusable code/scripts)
 
+## Cross-Platform
+
+- .NET 10 runtime (Windows, Linux, macOS)
+- Container support (Docker, Kubernetes)
+- Cross-platform file system abstraction
+
+## Cross-Model LLM Support
+
+- Unified interface for multiple LLM providers (similar to LiteLLM)
+- OpenAI, Anthropic, Azure OpenAI, and other providers
+- Provider-agnostic agent definitions
+- See `specs/system/llm-gateway/SPEC.md`
+
 ## Deployment
 
 ### Memory

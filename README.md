@@ -6,6 +6,10 @@ A general-purpose AI agent system built on .NET 10 using the codeact pattern wit
 
 Agents.NET provides a framework for building dynamic AI agents with full control over execution aspects. The system emphasizes reusability of existing tools (MCPs) and configuration-driven agent definitions rather than predefined agent types.
 
+**Key Features**:
+- **Cross-platform**: Works on Windows, Linux, macOS, and other platforms
+- **Cross-model**: Unified interface for multiple LLM providers (OpenAI, Anthropic, etc.)
+
 ### Design Principles
 
 - **Dynamic Control**: AI agents have full control over every aspect of execution

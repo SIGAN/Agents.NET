@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 General-purpose AI agent system based on codeact pattern.
 
+**Key Requirements**:
+- **Cross-platform**: Windows, Linux, macOS, etc.
+- **Cross-model**: Multiple LLM providers (similar to LiteLLM)
+
 ## Design Intent
 
 **Main Intent**: Give AI agents capabilities and ability to fully dynamically control every aspect of agent execution.
@@ -185,7 +189,7 @@ General-purpose AI agent system based on codeact pattern.
 - `Agents.Core.Contracts` - Shared contracts
 - `Agents.Core.Memory` - Memory infrastructure (Tasks/, Notes/, Decisions/, Graph/)
 - `Agents.Core.Coordination` - Channel/message coordination
-- `Agents.Core.LlmGateway` - Abstracts prompt caching, conversation mgmt, API keys, compatibility
+- `Agents.Core.LlmGateway` - LLM abstraction layer (cross-model support, prompt caching, conversation mgmt, API keys)
 - `Agents.Tools` - Standard tools
 - `Agents.Plugins` - Plugin infrastructure
 - `Agents.MicroAgents` - Agent definitions
@@ -213,6 +217,15 @@ See `specs/README.md` for complete specification hierarchy.
 - DRY (Don't Repeat Yourself)
 - Small steps
 - HITL (Human In The Loop) with explicit approval required
+
+**CRITICAL - MUST Follow During Development**:
+
+When user prompt is unclear or there's a problem implementing as originally intended, you MUST:
+1. Analyze why (briefly)
+2. Ask user for clarification
+3. Suggest possible solutions (briefly)
+
+This ensures alignment and prevents wasted effort on misunderstood requirements.
 
 ## Testing
 
