@@ -1,6 +1,5 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Agents.Agents/Agents.Agents.csproj" />
     <Project Path="src/Agents.Core.Contracts/Agents.Core.Contracts.csproj" />
     <Project Path="src/Agents.Core.Coordination/Agents.Core.Coordination.csproj" />
     <Project Path="src/Agents.Core.LlmGateway/Agents.Core.LlmGateway.csproj" />
@@ -9,6 +8,7 @@
     <Project Path="src/Agents.Core.Memory.Notes/Agents.Core.Memory.Notes.csproj" />
     <Project Path="src/Agents.Core.Memory.Tasks/Agents.Core.Memory.Tasks.csproj" />
     <Project Path="src/Agents.Core.Memory/Agents.Core.Memory.csproj" />
+    <Project Path="src/Agents.MicroAgents/Agents.MicroAgents.csproj" />
     <Project Path="src/Agents.Plugins/Agents.Plugins.csproj" />
     <Project Path="src/Agents.Security/Agents.Security.csproj" />
     <Project Path="src/Agents.Tools/Agents.Tools.csproj" />

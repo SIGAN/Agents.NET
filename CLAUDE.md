@@ -172,7 +172,7 @@ Projects organized by concern:
 - `Agents.Core.LlmGateway` - Abstracts prompt caching, conversation mgmt, API keys, compatibility
 - `Agents.Tools` - Standard tools
 - `Agents.Plugins` - Plugin infrastructure
-- `Agents.Agents` - Agent definitions
+- `Agents.MicroAgents` - Agent definitions
 - `Agents.Security` - Security infrastructure
 
 ## Development Principles
