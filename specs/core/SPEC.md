@@ -1,8 +1,8 @@
-# System Specification
+# Core Specification
 
 ## Purpose
 
-General-purpose AI agent system based on codeact pattern.
+Bare minimum AI agent system based on codeact pattern. This specification defines the Core features that must be implemented first.
 
 ## Design Intent
 
@@ -28,11 +28,13 @@ General-purpose AI agent system based on codeact pattern.
 ## Core Concepts
 
 ### MicroAgent
-- Specialized AI with configurable context (fresh/summarized/fork - assigned per task)
+- Specialized AI with basic context
 - System prompt defining behavior
 - Description (when to use/invoke)
 - MUST use one or more Skills (agent = collection of skills)
-- Spawns concurrently, shares hierarchical memory with all agents
+- Spawns concurrently
+
+**Note**: Advanced context management (fresh/summarized/fork) and hierarchical memory are Mark1 features.
 
 ### Skill
 - Executable configuration (NOT just knowledge provider)
@@ -53,13 +55,12 @@ General-purpose AI agent system based on codeact pattern.
 - Unified interface for multiple LLM providers (similar to LiteLLM)
 - OpenAI, Anthropic, Azure OpenAI, and other providers
 - Provider-agnostic agent definitions
-- See `specs/system/llm-gateway/SPEC.md`
+- See `specs/core/llm-gateway/SPEC.md`
 
 ## Deployment
 
-### Memory
-- Local AND distributed
-- Support multiple concurrent projects (may be unrelated)
+### Local Deployment
+- Local execution environment
+- Single project support
 
-### UI and Agents
-- Same deployment model (local AND distributed)
+**Note**: Distributed deployment and multi-project support are Mark1 features.

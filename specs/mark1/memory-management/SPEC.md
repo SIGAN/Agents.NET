@@ -1,6 +1,6 @@
 # Memory Management Specification
 
-**Inherits**: `specs/system/SPEC.md`
+**Inherits**: `specs/core/SPEC.md`
 
 ## Overview
 
