@@ -113,6 +113,20 @@ See `specs/README.md` for complete specification hierarchy.
 - Small steps
 - HITL (Human In The Loop) with explicit approval required
 
+## Coding Standards
+
+**Async Methods** (MANDATORY):
+- **All methods MUST be async** - No synchronous methods allowed
+- **All async methods MUST include CancellationToken parameter** with default value
+- Parameter format: `CancellationToken ct = default`
+- Example:
+  ```csharp
+  public async Task<Result> DoSomethingAsync(string input, CancellationToken ct = default)
+  {
+      // implementation
+  }
+  ```
+
 **CRITICAL - MUST Follow During Development**:
 
 When user prompt is unclear or there's a problem implementing as originally intended, you MUST:
