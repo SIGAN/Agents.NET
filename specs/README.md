@@ -17,6 +17,7 @@ Hierarchical specification system for Agents.NET.
 - `llm-gateway/` - Cross-model LLM abstraction layer (foundation for agents)
 - `agent-management/` - Agent lifecycle and execution, Skills
 - `coordination/` - Inter-agent communication (basic channels)
+- `hitl/` - Human In The Loop (approvals and interventions)
 - `python-execution/` - Python snippet execution (CodeAct pattern)
 
 ### Mark1 Features (`mark1/`)

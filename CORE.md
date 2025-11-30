@@ -109,6 +109,24 @@ Minimal viable AI agent system based on CodeAct pattern.
 
 **See**: `specs/core/python-execution/SPEC.md`
 
+### 6. HITL (Human In The Loop)
+
+**Human oversight and control** for agent operations.
+
+**Features**:
+- Approval requests (agent asks for permission before executing)
+- Interventions (human stops or redirects agent execution)
+- Approval policies (define what requires approval)
+- Intervention triggers (define when human can intervene)
+
+**Operations**:
+- RequestApproval (agent requests human approval)
+- GrantApproval / DenyApproval (human responds to approval request)
+- Intervene (human interrupts agent execution)
+- SetApprovalPolicy (configure what requires approval)
+
+**See**: `specs/core/hitl/SPEC.md`
+
 ## What's NOT in Core
 
 The following features are deferred to **Mark1**:
@@ -129,6 +147,7 @@ The following features are deferred to **Mark1**:
 - `Agents.Core.Contracts` - Shared contracts
 - `Agents.Core.LlmGateway` - LLM abstraction layer (cross-model support, API keys, basic conversation mgmt)
 - `Agents.Core.Coordination` - Channel/message coordination
+- `Agents.Core.HITL` - Human In The Loop (approvals and interventions)
 - `Agents.MicroAgents` - Agent definitions and execution
 - `Agents.Tools` - Python execution tool
 
@@ -149,6 +168,7 @@ Core system specifications are maintained in `specs/core/`:
 - `agent-management/` - Agent and Skill specifications
 - `coordination/` - Channel communication specification
 - `python-execution/` - Python execution specification
+- `hitl/` - Human In The Loop specification
 
 **Inheritance**: Child specs inherit all parent spec properties and constraints.
 

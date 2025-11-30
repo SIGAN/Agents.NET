@@ -44,6 +44,14 @@ Bare minimum AI agent system based on codeact pattern. This specification define
 - MCPs (Model Context Protocol integrations)
 - Snippets (reusable code/scripts)
 
+### HITL (Human In The Loop)
+- Approval requests for critical operations
+- Human interventions to stop/redirect agent execution
+- Configurable approval policies
+- Real-time human oversight
+
+**Note**: Advanced HITL features (audit trails, multi-approval workflows) are Mark1 features.
+
 ## Cross-Platform
 
 - .NET 10 runtime (Windows, Linux, macOS)

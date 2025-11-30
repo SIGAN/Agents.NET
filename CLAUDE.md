@@ -19,6 +19,7 @@ The system is organized into two feature tiers:
   - MicroAgent (basic definition and execution)
   - Skill
   - Agent Channels (basic coordination)
+  - HITL (Human In The Loop - approvals and interventions)
   - Spawn agent
   - WaitAndGetResult
   - Python execution (CodeAct pattern)
@@ -70,6 +71,7 @@ See detailed feature specifications in:
 - `Agents.Core.Contracts` - Shared contracts
 - `Agents.Core.LlmGateway` - LLM abstraction layer (cross-model support, API keys, basic conversation mgmt)
 - `Agents.Core.Coordination` - Channel/message coordination
+- `Agents.Core.HITL` - Human In The Loop (approvals and interventions)
 - `Agents.MicroAgents` - Agent definitions and execution
 - `Agents.Tools` - Python execution tool
 
